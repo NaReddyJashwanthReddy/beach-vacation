@@ -1,0 +1,70 @@
+/* ============================
+   GOOGLE FONTS
+============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* ============================
+   ROOT VARIABLES
+============================ */
+
+:root{
+
+    /* Colors */
+
+    --primary-color:#FF7F50;
+    --secondary-color:#3CBCC3;
+    --accent-color:#FFD166;
+
+    --background-color:#FFF9F4;
+    --surface-color:#FFFFFF;
+
+    --text-color:#2F2F2F;
+    --text-light:#666666;
+
+    --border-color:#ECECEC;
+
+    /* Typography */
+
+    --heading-font:'Playfair Display', serif;
+    --body-font:'Poppins', sans-serif;
+
+    /* Font Sizes */
+
+    --fs-xl:4rem;
+    --fs-lg:3rem;
+    --fs-md:2rem;
+    --fs-sm:1.25rem;
+    --fs-body:1rem;
+
+    /* Spacing */
+
+    --space-xs:8px;
+    --space-sm:16px;
+    --space-md:24px;
+    --space-lg:40px;
+    --space-xl:80px;
+
+    /* Radius */
+
+    --radius-sm:8px;
+    --radius-md:16px;
+    --radius-lg:24px;
+    --radius-full:999px;
+
+    /* Shadow */
+
+    --shadow-light:0 5px 15px rgba(0,0,0,.08);
+
+    --shadow-medium:0 10px 30px rgba(0,0,0,.12);
+
+    /* Transition */
+
+    --transition:.3s ease;
+
+    /* Container */
+
+    --container-width:1200px;
+
+}

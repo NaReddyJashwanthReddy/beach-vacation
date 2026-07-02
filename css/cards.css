@@ -1,0 +1,114 @@
+/* =========================
+   CATEGORY HERO
+========================= */
+
+.category-hero {
+    background: #FFF9F4;
+    padding: 100px 0 60px;
+    text-align: center;
+    position: relative;
+}
+
+.category-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.category-hero p {
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+
+/* =========================
+   OUTFIT GRID
+========================= */
+
+.outfit-section {
+    padding: 60px 0;
+}
+
+.outfit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.outfit-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    transition: .3s ease;
+    text-align: center;
+}
+
+.outfit-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.outfit-card h3 {
+    margin-top: 10px;
+}
+
+.outfit-card p {
+    color: #666;
+    padding-bottom: 15px;
+}
+
+.outfit-card:hover {
+    transform: translateY(-6px);
+}
+
+/* =========================
+   STYLE TIPS
+========================= */
+
+.tips-grid {
+    padding: 60px 0;
+}
+
+.tips-grid-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.tip-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.06);
+    transition: .3s ease;
+}
+
+.tip-card h3 {
+    margin-bottom: 10px;
+}
+
+.tip-card p {
+    color: #666;
+}
+
+.tip-card:hover {
+    transform: translateY(-5px);
+}
+
+/* =========================
+   SEO CONTENT
+========================= */
+
+.category-content {
+    padding: 60px 0;
+}
+
+.category-content h2 {
+    margin-bottom: 15px;
+}
+
+.category-content p {
+    color: #666;
+    margin-bottom: 15px;
+}

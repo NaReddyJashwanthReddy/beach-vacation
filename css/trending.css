@@ -1,0 +1,51 @@
+/* ==========================================
+   TRENDING SEARCHES
+========================================== */
+
+.trending-searches{
+    background:#fff;
+}
+
+.trending-tags{
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:16px;
+
+    margin-top:40px;
+
+}
+
+.tag{
+
+    padding:14px 24px;
+
+    background:#fff;
+
+    border:1px solid #e9e9e9;
+
+    border-radius:50px;
+
+    color:#444;
+
+    font-size:.95rem;
+    font-weight:500;
+
+    transition:all .3s ease;
+
+}
+
+.tag:hover{
+
+    background:#FF7F50;
+
+    color:#fff;
+
+    border-color:#FF7F50;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(255,127,80,.25);
+
+}
